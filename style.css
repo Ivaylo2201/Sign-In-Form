@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+body {
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.form {
+    width: 500px;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(2.5px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    color: white;
+    font-family: 'Tektur', cursive;
+    font-size: 40px;
+    top: 5%;
+    text-align: center;
+    position: relative;
+}
+
+.email-section {
+    width: 325px;
+    height: 50px;
+    position: relative;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.password-section {
+    width: 325px;
+    height: 50px;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-password,
+.input-email {
+    box-sizing: border-box;
+    width: 325px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Tektur', cursive;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin: auto;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    top: 20%;
+    transform: translateY(-50%)
+}
+
+.input-password:focus,
+.input-email:focus {
+    outline: none;
+}
+
+.fa-sharp.fa-solid.fa-user,
+.fa-sharp.fa-solid.fa-lock {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 19px;
+    left: 18px;
+}
+
+.forgot-password {
+    color: white;
+    font-size: 15px;
+    font-family: 'Tektur', cursive;
+    text-align: center;
+    position: relative;
+    cursor: default;
+    top: 8%;
+}
+
+.sign-up-button:hover {
+    color: #5bbd35;
+    cursor: pointer;
+}
+
+.sign-in-button {
+    font-size: 16px;
+    font-family: 'Tektur', cursive;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #5bbd35;
+    color: white;
+    position: relative;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.sign-in-button:hover {
+    background-color: white;
+    color: #5bbd35;
+}
+
+.sign-up-label {
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    top: 19%;
+    font-family: 'Tektur', cursive;
+    cursor: default;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 10%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px;
+}
+
+.fa-brands.fa-twitter,
+.fa-brands.fa-facebook,
+.fa-brands.fa-google {
+    color: #5bbd35;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.fa-brands.fa-twitter:hover,
+.fa-brands.fa-facebook:hover,
+.fa-brands.fa-google:hover {
+    color: white;
+}
